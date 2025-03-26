@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio WebSite</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b2a44bf8d2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#myskills">Skills</a></li>
+                    <li><a href="#mycontacts">Contact</a></li>
+                    <!--<i class="fa-solid fa-xmark"></i>-->
+                </ul>
+                <!--<i class="fa-solid fa-bars"></i>-->
+            </nav>
+            <div class="header-text">
+                <h1>Hi,<br> I'm <span>Dhananjana</span> Koralage</h1>
+                <p>Trainee Software Developer</p>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------ABOUT-------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/cover3.jpg" class="aboutme">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        Hi, I'm Nipuni Dhananjana - a passionate Computer Systems and Network Engineering student (final semester) at SLIIT University, with a knack for software development and IoT innovations.<br>
+                        I thrive at the intersection of technology and problem-solving, currently leading a research project to build a smart IoT-based crib for infants (using Arduino, Java/Android Studio, PHP, and MySQL). My hands-on experience as a Trainee Software Developer (previously IT Executive) taught me the value of adaptability, teamwork, and a strong work ethic.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web<br></span>Develop Web Application</li>
+                            <li><span>Mobile<br></span>Develop Android Application</li>
+                            <li><span>Desktop<br></span>Develop Desktop Application</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Trainee Software Developer | 2024<br></span><span1>Onimta Information Technology</span1>
+                            </li>
+                            <li>
+                                Error handling in ERP solutions' software via SQL SP codes
+                            </li>
+                            <li>
+                                Software maintains. (CRM, POS, Stylish, Bestow, Inventory)
+                            </li>
+                            <li>
+                                Database Handling. (SQL)
+                            </li>
+                            <li>
+                                Bug Fixing in different types of Inventory Systems
+                            </li>
+                            <li>
+                                Create new solutions for customer requirements
+                            </li>
+                            <li>
+                                Modify existing Systems
+                            </li>
+                            <li>
+                                Projects create with .Net Framework in C#
+                            </li>
+                            <li>
+                                Reports create with Crystal Reports
+                            </li>
+                            <li>
+                                Stored Procedure Codes create and modify with complex calculations
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Sri Lanka Institute of Information Technology (SLIIT) - WGPA: 2.81<br></span></li>
+                            <li>Bachelor of Science Honors in Information Technology</li>
+                            <li>Specialized in Computer Systems & Network Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------PROJECTS-------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web<br>Application</h2>
+                    <p>
+                        <span>Lecturer Availability Notice Board (personal project)<br></span>
+                        Create a web application in html, css, php using Visual Studio<br>
+                        Create database using MySQL using phpMyAdmin<br>
+                        Create database connection using php
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Mobile<br>Application</h2>
+                    <p>
+                        <span>Crib Control System (research project)<br></span>
+                        Create a mobile application in Java, php using Android Studio<br>
+                        Create database using MySQL using phpMyAdmin<br>
+                        Create database connection using php
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Desktop<br>Application</h2>
+                    <p>
+                        <span>Encrypt Decrypt Tool (personal project)<br></span>
+                        Create a desktop application in c# using Visual Studio<br><br>
+
+                        <span>Inventory Management and Billing System (personal project)<br></span>
+                        Create a desktop application in c# using Visual Studio<br>
+                        Create database using SQL using Microsoft SQL Server<br><br>
+
+                        <span>Staff Leaving System (academic group project)<br></span>
+                        Create a desktop application in Java using NetBeans<br>
+                        Create database using MySQL using phpMyAdmin<br>
+                        Create database connection using php
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------SKILLS-------------------->
+    <div id="myskills">
+        <div class="container">
+            <h1 class="subtitle">My Skills</h1>
+            <div class="skills-list">
+                <div class="work">
+                    <img src="images/Languages.jpg">
+                    <div class="layer">
+                        <h3>Languages</h3>
+                        <ul>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>C#</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>PHP</li>
+                            <li>Arduino</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Frameworks.jpg">
+                    <div class="layer">
+                        <h3>Frameworks</h3>
+                        <ul>
+                            <li>.NET</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Databases.jpg">
+                    <div class="layer">
+                        <h3>Databases</h3>
+                        <ul>
+                            <li>MSSQL</li>
+                            <li>MySQL</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Tools.jpeg">
+                    <div class="layer">
+                        <h3>Tools and Technologies</h3>
+                        <ul>
+                            <li>Visual Studio</li>
+                            <li>Android Studio</li>
+                            <li>NetBeans</li>
+                            <li>VMWare</li>
+                            <li>Virtual Box</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/SoftSkills.jpg">
+                    <div class="layer">
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Critical Thinking</li>
+                            <li>Problem-Solving</li>
+                            <li>Self-Learning</li>
+                            <li>Team Working,</li>
+                            <li>Self Motivate</li>
+                            <li>Leadership</li>
+                            <li>Time Management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------CONTACTS-------------------->
+    <div id="mycontacts">
+        <div class="container">
+            <div class="profile">
+                <h1 class="subtitle">Contacts</h1>
+                <img src="images/Profilepohoto.jpg">
+                <p>Use my contact form for all information requests or contact me<br>directly using the contact information below.</p>
+            </div>
+
+            <div class="contacts-list">
+                <div class="info-box">
+                    <div class="icon">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <h2>LINKEDIN</h2>
+                    <a href="https://www.linkedin.com/in/nipuni-dhananjana">Koralage N Dhananajana</a>
+                </div>
+
+                <div class="info-box">
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <h2>FACEBOOK</h2>
+                    <a href="https://www.facebook.com/share/1A83qoMNud/">Nipuni Dhananajana</a>
+                </div>
+
+                <div class="info-box">
+                    <div class="icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <h2>PHONE</h2>
+                    <p>+94 78 847 8424</p>
+                </div>
+
+                <div class="info-box">
+                    <div class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <h2>GMAIL</h2>
+                    <p>nipunidhananjana2000@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2025 Koralage N Dhananjana. All rights reserved.</p>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+</body>
+</html>
